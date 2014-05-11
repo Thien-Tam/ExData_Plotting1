@@ -36,6 +36,8 @@ read_data <- function(filename = "household_power_consumption.txt") {
 
 # The function draw_plot2 creates "plot2.png" for this project.
 # The image file will be created in the current working directory.
+# NB: the dates are shown with French locale ie. "jeu.", "ven." & "sam."
+#     instead of "Thu", "Fri" & "Sat"
 
 draw_plot2 <- function() {
 	data <- read_data()
